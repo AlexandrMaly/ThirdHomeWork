@@ -1,8 +1,6 @@
 package vehicle;
 
-import java.awt.*;
-
-public final class Bicycle extends Ground {
+public final class Bicycle extends GroundVehicle {
 
     private int passedKm;
     private double usedUpWater;
@@ -53,12 +51,12 @@ public final class Bicycle extends Ground {
     }
 
     @Override
-    public void ecoFriendly() {
-        System.out.println("you eco friendly, great");
+    public boolean isEcoFriendly() {
+        return true;
     }
 
     @Override
-    public void typeFuel() {
+    public void ShowTypeOfFuel() {
         System.out.println("electric");
     }
 

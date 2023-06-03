@@ -5,7 +5,7 @@ import ministryOfDefense.SpecialForce;
 import vehicle.Auto;
 import vehicle.Bicycle;
 import vehicle.Bike;
-import vehicle.Ground;
+import vehicle.GroundVehicle;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class Main {
         SpecialForce specialForce = new SpecialForce();
         specialForce.notificationOfPersonnel("TLG first");
         specialForce.doSomePaperWork();
-        specialForce.showHowManyAlert();
+        specialForce.showNumberOfAlerts();
         specialForce.showUnitAndPeople("SQB", 25);
         specialForce.whenBeCheckBase();
         specialForce.showWhenWeWin();
@@ -25,7 +25,7 @@ public class Main {
         airForce.HowManyFlightsAndPlane(-2, 4);
         airForce.notificationOfPersonnel("TLG second");
         airForce.doSomePaperWork();
-        airForce.showHowManyAlert();
+        airForce.showNumberOfAlerts();
         airForce.showWhenWeWin();
         airForce.showWhenrusshaLoss();
         airForce.whenBeCheckBase();
@@ -35,7 +35,7 @@ public class Main {
         airborne.showTaskAndVehicle("ambush", "HMMWV");
         airborne.doSomePaperWork();
         airborne.notificationOfPersonnel("TLG third");
-        airborne.showHowManyAlert();
+        airborne.showNumberOfAlerts();
         airborne.showWhenWeWin();
         airborne.showWhenrusshaLoss();
         airborne.whenBeCheckBase();
@@ -47,8 +47,8 @@ public class Main {
         bicycle.move();
         bicycle.availabilityOfSecurity();
         bicycle.drivingOnIce();
-        bicycle.ecoFriendly();
-        bicycle.typeFuel();
+        bicycle.isEcoFriendly();
+        bicycle.ShowTypeOfFuel();
         bicycle.consumption();
         bicycle.permeability();
         bicycle.usedUpWater(25);
@@ -61,9 +61,9 @@ public class Main {
         auto.availabilityOfSecurity();
         auto.consumption();
         auto.drivingOnIce();
-        auto.ecoFriendly();
+        auto.isEcoFriendly();
         auto.permeability();
-        auto.typeFuel();
+        auto.ShowTypeOfFuel();
         auto.showKmToTO(57,2000);
 
         System.out.println("\n*************Bike*****************\n");
@@ -73,28 +73,28 @@ public class Main {
         bike.move();
         bike.availabilityOfSecurity();
         bike.drivingOnIce();
-        bike.ecoFriendly();
-        bike.typeFuel();
+        bike.isEcoFriendly();
+        bike.ShowTypeOfFuel();
         bike.consumption();
         bike.permeability();
         bike.showTypeAndPassenger("sport", 1);
 
         System.out.println("\n******************************\n");
-        Ground ground = new Auto("mazda", 90, 4, "white");
+        GroundVehicle ground = new Auto("mazda", 90, 4, "white");
         ground.showWheels();
         ground.showColor();
         ground.move();
         ground.availabilityOfSecurity();
         ground.drivingOnIce();
-        ground.ecoFriendly();
-        ground.typeFuel();
+        ground.isEcoFriendly();
+        ground.ShowTypeOfFuel();
         ground.consumption();
         ground.permeability();
 
         System.out.println("\n******************************\n");
         GeneralStaff generalStaff = new SpecialForce();
         generalStaff.notificationOfPersonnel("TLG first");
-        generalStaff.showHowManyAlert();
+        generalStaff.showNumberOfAlerts();
         generalStaff.whenBeCheckBase();
         generalStaff.showWhenWeWin();
         generalStaff.showWhenrusshaLoss();

@@ -1,7 +1,7 @@
 package ministryOfDefense;
 
-public interface MinistryTwo extends MinistryOne {
+public interface MinistryTwo extends ShowDayWin {
 
-    void showHowManyAlert();
+    void showNumberOfAlerts();
     void whenBeCheckBase();
 }

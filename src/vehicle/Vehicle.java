@@ -1,6 +1,6 @@
 package vehicle;
 
-public abstract class Vehicle implements VehicleTwo, VehicleThree {
+public abstract class Vehicle implements VehicleSave, VehicleFuel {
     private String name;
     private int speed;
 

@@ -1,6 +1,6 @@
 package vehicle;
 
-public final class Auto  extends Ground{
+public final class Auto  extends GroundVehicle {
 
     private int kilometres;
     private int kilometresToTO;
@@ -50,12 +50,12 @@ public final class Auto  extends Ground{
     }
 
     @Override
-    public void ecoFriendly() {
-        System.out.println("you make CO2");
+    public boolean isEcoFriendly() {
+        return false;
     }
 
     @Override
-    public void typeFuel() {
+    public void ShowTypeOfFuel() {
         System.out.println("Dizel");
     }
 

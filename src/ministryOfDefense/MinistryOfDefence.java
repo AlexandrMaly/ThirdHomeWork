@@ -34,7 +34,7 @@ abstract public class MinistryOfDefence extends GeneralStaff {
     }
 
     @Override
-    public void showHowManyAlert() {
+    public void showNumberOfAlerts() {
         System.out.println("we have: " + numberOfAlerts + " alert(s)");
     }
 

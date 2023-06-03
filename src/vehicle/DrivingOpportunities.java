@@ -1,6 +1,6 @@
 package vehicle;
 
-public interface VehicleOne {
+public interface DrivingOpportunities {
     void permeability();
     void drivingOnIce();
 }

@@ -1,6 +1,6 @@
 package ministryOfDefense;
 
-public interface MinistryOne {
+public interface ShowDayWin {
     void showWhenWeWin();
     void showWhenrusshaLoss();
 }
