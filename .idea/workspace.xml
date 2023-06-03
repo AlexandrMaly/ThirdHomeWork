@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="943792d0-9459-43e2-87f6-8170b0b590cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vehicle/VehicleFuel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vehicle/VehicleSave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ministryOfDefense/MinistryOfDefence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ministryOfDefense/MinistryOfDefence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ministryOfDefense/MinistryOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ministryOfDefense/ShowDayWin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ministryOfDefense/MinistryTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ministryOfDefense/MinistryTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vehicle/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vehicle/Auto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vehicle/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vehicle/Bicycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vehicle/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vehicle/Bike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vehicle/Ground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vehicle/GroundVehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vehicle/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vehicle/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vehicle/VehicleOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vehicle/DrivingOpportunities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vehicle/VehicleThree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vehicle/VehicleTwo.java" beforeDir="false" />
-    </list>
+    <list default="true" id="943792d0-9459-43e2-87f6-8170b0b590cb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,13 +29,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Hillel/homeWorkGitPartTwo"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Hillel/homeWorkGitPartTwo&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -80,5 +60,16 @@
       <updated>1684588752433</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
