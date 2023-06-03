@@ -11,7 +11,7 @@ public void HowManyFlightsAndPlane(int flights, int plane){
         this.howManyFlights += flights;
     }
     if(plane<0){
-        System.out.println("Plane can`t be minus");
+        System.out.println("Plane can`t be minus, need do some changes");
     } else {
         this.howManyPlane += plane;
     }
