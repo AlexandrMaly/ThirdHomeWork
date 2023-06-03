@@ -36,7 +36,7 @@ public final class Auto  extends GroundVehicle {
 
     @Override
     public void permeability() {
-        System.out.println("vezdehod");
+        System.out.println("vezdehod, you can go in the mount");
     }
 
     @Override
