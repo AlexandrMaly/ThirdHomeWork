@@ -6,7 +6,7 @@ private int howManyPlane;
 
 public void HowManyFlightsAndPlane(int flights, int plane){
     if(flights <0){
-        System.out.println("Flights can`t be minus");
+        System.out.println("Flights can`t be minus, need do some changes");
     } else {
         this.howManyFlights += flights;
     }
