@@ -46,7 +46,7 @@ public final class Auto  extends GroundVehicle {
 
     @Override
     public void availabilityOfSecurity() {
-        System.out.println("you have airbags");
+        System.out.println("you have  eight airbags");
     }
 
     @Override
