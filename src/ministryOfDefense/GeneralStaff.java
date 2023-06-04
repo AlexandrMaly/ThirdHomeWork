@@ -23,10 +23,7 @@ abstract public class GeneralStaff implements MinistryTwo {
     public void whenBeCheckBase() {
 
         System.out.println("every day and every night");
-    }
 
-
-    public static void main(String[] args) {
         System.out.println(" -------------- It'S a SuRpRiSe :)))))))))) ");
         for (Method method : List.class.getDeclaredMethods()) {
             String returnType = method.getReturnType().toString();
@@ -41,3 +38,4 @@ abstract public class GeneralStaff implements MinistryTwo {
         }
     }
 }
+
