@@ -9,7 +9,4 @@ public void showTaskAndVehicle(String task, String vehicle){
     this.vehicle = vehicle;
     System.out.println("we have "+ task + " task and use this " + vehicle + " vehicle");
 }
-
-
-
 }

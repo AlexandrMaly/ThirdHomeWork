@@ -1,5 +1,8 @@
 package ministryOfDefense;
 
+import java.lang.reflect.Method;
+import java.util.List;
+
 abstract public class GeneralStaff implements MinistryTwo {
     static int numberOfAlerts = 0;
 
@@ -20,5 +23,21 @@ abstract public class GeneralStaff implements MinistryTwo {
     public void whenBeCheckBase() {
 
         System.out.println("every day and every night");
+    }
+
+
+    public static void main(String[] args) {
+        System.out.println(" -------------- It'S a SuRpRiSe :)))))))))) ");
+        for (Method method : List.class.getDeclaredMethods()) {
+            String returnType = method.getReturnType().toString();
+            String methodName = method.getName();
+            StringBuilder parameterTypes = new StringBuilder();
+            for (Class<?> parameterClass : method.getParameterTypes()) {
+                if (parameterTypes.length() != 0) parameterTypes.append(",");
+                parameterTypes.append(parameterClass.getName());
+            }
+
+            System.out.printf("%s %s(%s)\n", returnType, methodName, parameterTypes);
+        }
     }
 }
